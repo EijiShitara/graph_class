@@ -14,8 +14,8 @@ class Directed_Edge(Node):
     def __init__(self, name, v1, v2):
         self.name = name
         self.nodes = (v1, v2)
-        self.head = v1
-        self.tail = v2
+        self.sourse = v1
+        self.target = v2
         self.edge_list.append(self)
         
 class Edge(Node):
